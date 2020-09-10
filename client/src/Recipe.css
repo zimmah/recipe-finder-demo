@@ -1,0 +1,52 @@
+:root {
+  --light-green: #a8d969;
+  --medium-green: #71bd46;
+  --dark-green: #468731;
+  --light-yellow: #f1f1ba;
+  --medium-yellow: #ebd874;
+  --dark-yellow: #eaba38;
+  --very-dark-green: #222b16;
+  --medium-red: #c84c1f;
+  --light-orange: #f59519;
+  --medium-orange: #ce7d44;
+  --dark-orange: #793e2b;
+  --medium-blue: #3e5e6e;
+}
+
+input {
+  background-color: var(--light-yellow);
+}
+
+.Recipe-link {
+  color: var(--very-dark-green);
+}
+
+.Recipe-link:visited {
+  color: var(--dark-green);
+}
+
+.Recipe-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: var(--light-orange);
+  flex-basis: 300px;
+  margin: 20px 0;
+}
+
+.Recipe-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Recipe-card-container {
+  padding: 2px 16px;
+}
+
+.Recipe-card-title {
+  font-size: 1.5em;
+}
+
+.Recipe-img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}

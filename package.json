@@ -1,0 +1,24 @@
+{
+  "name": "recipe-finder",
+  "version": "1.0.0",
+  "description": "Find recipes similar to an image provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd api && npm start",
+    "heroku-postbuild": "cd client && npm install--only=dev && npm i && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zimmah/recipe-finder.git"
+  },
+  "author": "Zimri Leijen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zimmah/recipe-finder/issues"
+  },
+  "homepage": "https://github.com/zimmah/recipe-finder#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

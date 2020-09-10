@@ -1,0 +1,89 @@
+:root {
+  --light-green: #a8d969;
+  --medium-green: #71bd46;
+  --dark-green: #468731;
+  --light-yellow: #f1f1ba;
+  --medium-yellow: #ebd874;
+  --dark-yellow: #eaba38;
+  --very-dark-green: #222b16;
+  --medium-red: #c84c1f;
+  --light-orange: #f59519;
+  --medium-orange: #ce7d44;
+  --dark-orange: #793e2b;
+  --medium-blue: #3e5e6e;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 3em;
+  font-size: 1em;
+}
+
+.App-recipe-container {
+  background-image: url(seamless-1657450_960_720.jpg);
+  background-repeat: repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.App-input {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  flex-basis: 80%;
+  padding: 1em;
+  border: 0;
+}
+
+.App-button {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  flex-basis: 20%;
+  padding: 1em;
+  border: 0;
+  background-color: var(--light-orange);
+}
+
+.App-button:hover {
+  cursor: pointer;
+  background-color: var(--dark-yellow);
+}
+
+.App-link {
+  color: var(--medium-yellow);
+}
+
+.App-error {
+  background-color: var(--very-dark-green);
+  margin: 0;
+  padding: 1em 0;
+  color: var(--light-yellow);
+}
+
+.App-link:visited {
+  color: var(--light-yellow)
+}
+
+.dropzone {
+  background-color: var(--medium-green);
+  padding: 2em 0;
+  margin: 0;
+  border-top: 1px solid var(--very-dark-green);
+}
+
+.dropzone-inside {
+  padding: 2em;
+  border: 3px dashed var(--medium-blue);
+  width: 80%;
+  margin: auto;
+}

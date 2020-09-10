@@ -1,1 +1,2 @@
-# recipe-finder-demo
+# recipe-finder
+Find recipes similar to an image provided.
