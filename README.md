@@ -11,10 +11,4 @@ Note that it is based on ingredients, so the end dish may be different than the 
 
 For example if the input dish is sushi (which has rice and seafood) you may get recipes for paella, because it also has rice and seafood. This is not a bug.
 
-try a working example at https://recipe-finder-demo.herokuapp.com/ (currently having trouble with hosting it on heroku)
-
-## How to run it locally
-
-open a terminal for the server and type `npm start`
-
-open a seperate termninal for the server and type `cd .\client` followed by `npm start`
+try a working example at https://recipe-finder-demo.herokuapp.com/
